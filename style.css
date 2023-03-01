@@ -48,11 +48,13 @@ ul {
     align-self: flex-start;
     
 }
-.title {
+/* fuente - tamaño - color del TITULO */
+.title { 
  font-size: 48px;
  font-weight: bolder;
  color:#F9FAF8;
 }
+
 .subheader {
     color: #E5E7EB;
     font-size: 18px;
@@ -72,6 +74,7 @@ img {
     display: flex;
     height: auto;
     width: 400px;
+
 }
 
 .container-2 {
