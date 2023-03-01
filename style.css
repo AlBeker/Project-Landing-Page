@@ -35,18 +35,17 @@ ul {
 .hero-container {
     display: flex;
     background-color: #1F2937;
-    justify-content:space-around;
+    justify-content:center;
     align-items: center;
-    flex-direction: row;
-
+    padding: 50px;
+    gap: 50px;
 }
 
 .textos-hero {
     display: flex;
     width: 420px;
-    height: 350px;
     flex-direction: column;
-    justify-content: center;
+    align-self: flex-start;
     
 }
 .title {
