@@ -15,17 +15,32 @@ ul {
     flex-direction: row;
     background-color: #1F2937;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
     padding: 10px;
 }
 
-.logo {
-    color: #F9FAF8;
-    font-size: 24px;
+.header-logo { 
     display: flex;
-    font-weight: 700;
+    align-items: center;
 }
 
+.grogu-logo {
+height: auto;
+width: 100px;
+margin-left: 20px;
+}
+
+.logo-name {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
 .right-links {
     display: flex;
     gap: 30px;
@@ -38,8 +53,7 @@ ul {
     background-color: #1F2937;
     justify-content:center;
     align-items: center;
-    padding: 50px;
-    gap: 50px;
+    padding: 30px;
 }
 
 .textos-hero {
@@ -47,6 +61,7 @@ ul {
     width: 420px;
     flex-direction: column;
     align-self: flex-start;
+    margin-bottom: 20px;
     
 }
 /* fuente - tamaño - color del TITULO */
@@ -71,33 +86,27 @@ ul {
     color:#F9FAF8;
     font-weight: bold;
 }
-img {
+.imagen img {
     display: flex;
     height: auto;
     width: 400px;
 }
-
-.container-2 {
-    display: flex;
-    flex-direction: column;
-    margin-right: 50px;
-    margin-left: 50px;
-    margin-bottom: 50px;
-}
-    
-.fotos-animales{
-   display: flex; 
-    justify-content: center;
-    gap: 30px;
-    flex-wrap: wrap;
+.content-container img {
+width: 200px;
+height: 200px;
+object-fit: cover;
+border-radius: 10px;
+border: 2px solid #589c13;
 }
 
-.textos-header2 {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    justify-content: center;
-    gap: 30px;
+.content-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 20px;
+   text-align:center;
+   gap: 20px;
 }
 
 .header-2 {
@@ -105,22 +114,12 @@ img {
     font-weight: bolder;
     color: #1F2937;
     font-size: 36px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    padding: 20px;
 }
 
-p {
+.content-container p {
     flex-wrap: wrap; 
     max-width: 300px;
-}
-
-.foto1,
-.foto2,
-.foto3,
-.foto4 {
-    height: auto;
-    width: 300px;
-    border-radius: 5%;
 }
 
 .quote-container {
@@ -165,7 +164,7 @@ margin-left: 450PX;
     border: 2px solid #F9FAF8;
     background-color:#3882F6;
     width: 100px;
-    padding: 8px 16px;
+    padding: 10px 20px;
     text-align: center;
     font-weight: bold;
     color: #F9FAF8;
