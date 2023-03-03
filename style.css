@@ -127,5 +127,55 @@ p {
     background-color: #E5E7EB;
     flex-direction: column;
     align-items: center;
-    padding: 30px;
+    padding: 50px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    flex-wrap: wrap;
+    max-width: 700px;
+}
+
+.author {
+font-size: 20px;
+font-weight: bold;
+margin-left: 450PX;
+}
+
+.contenedor-cta {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.caja-azul {
+    background-color: #3882F6;
+    border-radius: 10px;
+    width: 900px;
+    padding: 20px;
+    border: none;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+.button-caja-azul {
+    border-radius: 8px;
+    border: 2px solid #F9FAF8;
+    background-color:#3882F6;
+    width: 100px;
+    padding: 8px 16px;
+    text-align: center;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.textos-caja-azul {
+  padding: 0;
+  color: #F9FAF8;
+}
+
+.titular-caja-azul {
+    font-weight: bolder;
+    font-size: 18px;
 }
